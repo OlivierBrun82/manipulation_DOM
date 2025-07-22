@@ -34,6 +34,14 @@
 
     darkOrLight();
 
+    let btn = document.querySelector("on-off");
+
+
+    function click() {
+        btn = darkOrLight();
+    }
+
+
 // correction: 
 // let bodyElement = document.querySelector("#body");
 // function darkOrLight() {
